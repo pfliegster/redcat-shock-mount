@@ -44,7 +44,7 @@
 //
 //////////////////////////////////////////////////////////////////////////
 
-// Overide some global constants for better rendering
+// Overide some global variables for better rendering
 //$fn=60;
 $fa=2;
 $fs=0.1;
@@ -53,7 +53,7 @@ $fs=0.1;
 // Some mechanical notes and measurements used in creation of this cup:
 // Spring dimensions:
 //    Outer diameter = 21.0 mm
-//    Spring steel thickness = 1.3mm
+//    Spring metal diameter/thickness = 1.3mm
 //    therefore: inner diameter = 18.4 mm
 // Shock metal piston:
 //    Diameter = 3.4 mm
@@ -63,29 +63,29 @@ $fs=0.1;
 
 // Main body: conical section of shock spring 'cup'
 // Constants used in creation of conical section comprising the main
-//    cup body:
+// cup body:
 c1h = 9.0;
 c1min = 9.5;
 c1max = 22.5;
 c1_thick = 2.0;
 
 // Cylindrical section to form the inner wall at wide end of cone
-//     to keep spring in place:
+// to keep spring in place:
 c2h = 6.0;
 c2d = 17.7;
 iw_h = 2.0;
 iw_thick = 1.0;
 
 // Cylindrical section to form the outer 'lip' at wide end of cone
-//     to keep spring in place:
+// to keep spring in place:
 c3h = 4.0;
 c3d = 9.3;
 lip_h = 0.5;
 lip_thick = 0.5;
 
 // Cylindrical section forming lower section of shock spring cup which
-//     fits around shock's center piston arm, above where it meets the
-//     attachment point on the lower suspension arm:
+// fits around shock's center piston arm, above where it meets the
+// attachment point on the lower suspension arm:
 c4h = 4.5;
 c4od = c1min;
 // Inner diameter has a slight taper on it, to snugly press fit onto end of mounting point
