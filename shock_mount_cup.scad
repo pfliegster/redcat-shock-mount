@@ -32,8 +32,6 @@
 //    2) Reference level Z=0 is the surface that the spring interfaces
 //       with the cup (wide end of the cone).
 //
-// Filename: shock_mount_cup.scad
-//
 // Author:        Keith Pflieger
 // Creation Date: March 17, 2021
 // License: CC BY-NC-SA 4.0
